@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <!--! Glide.js Css CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css">
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+     <!--! header start  -->
+  <header>
+    <div class="global-notification">
+      <div class="container">
+        <p>
+          AKLINIZA GELEBİLECEK,İHTİYACINIZ OLABİLECEK TÜM MEDİKAL ÜRÜNLER BU SAYFADA HEM DE İNDİRİMDE 
+
+          <a href="shop.html">  ŞiMDİ ÜRÜNLERE GİT ! </a>
+        </p>
+      </div>
+    </div>
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-mobile">
+            <i class="bi bi-list" id="btn-menu"></i>
+          </div>
+          <div class="header-left">
+            <a href="index.html" class="logo">
+              <img src="" class="logo" >
+          </a>
+          </div>
+          <div class="header-center" id="sidebar">
+            <nav class="navigation">
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  
+                    <div class="menu-dropdown-wrapper">
+                    
+                    </div>
+                  </li>
+                  <li class="menu-list-item megamenu-wrapper">
+                    <a href="shop.html" class="menu-link">
+                      Alışveriş 
+                      
+                    </a>
+                    <div class="menu-dropdown-wrapper">
+                      <div class="menu-dropdown-megamenu">
+                        <div class="megamenu-links">
+                          <div class="megamenu-products">
+                            <h3 class="megamenu-products-title">
+                                ÜRÜNLERİMİZ
+                            </h3>
+                            <ul class="megamenu-menu-list">
+                                <li>
+                                    <a href="#">Nebulizatör Gereçleri ve Oksijen Tüpleri</a>
+                                </li>
+                                <li>
+                                    <a href="#">Steteskoplar</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sağlık Personeli Giyim Ürünleri</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tansiyon ve Şeker Ölçüm Aletleri</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tekerlekli Sandalyeler</a>
+                                </li>
+                                <li>
+                                    <a href="#">Yatalak Hasta Bakım Gereçleri</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-list-item">
+                  
+                  </li>
+                  <li class="menu-list-item">
+                  <a href="contact.html" class="menu-link">
+                    İLETİŞİM
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <i class="bi-x-circle" id="close-sidebar"></i>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <a href="account.html" class="header-account">
+                <i class="bi bi-person"></i>
+              </a>
+              <button class="search-button">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="#">
+                <i class="bi bi-heart"></i>
+              </a>
+              <div class="header-cart">
+                <a href="cart.html" class="header-cart-link">
+                  <i class="bi bi-cart3"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--! header end  -->
+
+    <!-- modal search start -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Search for products</h3>
+            <p class="modal-text">Start typing to see products you are looking for.</p>
+            <form class="search-form">
+                <input type="text" placeholder="Search a product">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-results">
+                <div class="search-heading">
+                    <h3>RESULTS FROM PRODUCT</h3>
+                </div>
+                <div class="results">
+                    <a href="#" class="result-item">
+                        <img src="img/products/product1/1.png" class="search-thumb" alt="">
+                        <div class="search-info">
+                            <h4>Analogue Resin Strap</h4>
+                            <span class="search-sku">SKU: PD0016</span>
+                            <span class="search-price">$108.00</span>
+                        </div>
+                    </a>
+                    <a href="#" class="result-item">
+                        <img src="img/products/product2/1.png" class="search-thumb" alt="">
+                        <div class="search-info">
+                            <h4>Analogue Resin Strap</h4>
+                            <span class="search-sku">SKU: PD0016</span>
+                            <span class="search-price">$108.00</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+     <!--! modal search end  -->
+
+
+    <!--! single product start  -->
+    <section class="single-product">
+        <div class="container">
+            <div class="single-product-wrapper">
+                <!-- breadcrumb start -->
+                <div class="single-topbar">
+                    <nav class="breadcrumb">
+                        <ul>
+                            <li><a href="index.html">Ana Sayfa </a></li>
+                            <li><a href="shop.html">Kategoriler</a></li>
+                            <li><a href="#">Yatalak Hasta Bakım Gereçleri  </a></li>
+                            <li>Hasta Yatakları</li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- breadcrumb end -->
+
+                <!-- site main start -->
+                <div class="single-content">
+                    <main class="site-main">
+                        <div class="product-gallery">
+                            <div class="single-image-wrapper">
+                                <img src="img/products/Hasta-Yatağı/hasta yatağı-1-1.jpg" id="single-image" alt="">
+                            </div>
+                            <div class="product-thumb">
+                                <div class="glide__track" data-glide-el="track">
+                                    <ol class="gallery-thumbs glide__slides">
+                                        <li class="glide_slide">
+                                            <img src="img/products/Hasta-Yatağı/hasta yatağı-1-1.jpg" alt="single-image">
+                                        </li>
+                                        <li class="glide_slide">
+                                            <img src="img/products/Hasta-Yatağı/hasta yatağı 2-2.jpg" alt="single-image">
+                                        </li>
+                                        
+                                    </ol>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h1 class="product-title">
+                                2 Motorlu Full Abs Hasta Karyolasi
+                            </h1>
+                            <div class="product-review">
+                                <ul class="product-star">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                                <span>7 Yorum</span>
+                            </div>
+                            <div class="product-price">
+                        
+                                <strong class="new-price">17.750₺</strong>
+                            </div>
+                            <p class="product-description">
+                                İki Motorlu Elektrikli Hasta Karyolası, Ortopedik karyola.
+                            </p>
+                            <form class="variations-form">
+                                <div class="variations">
+                                    <div class="colors">
+                                        <div class="colors-label">
+                                            <span>Renk</span>
+                                        </div>
+                                        <div class="colors-wrapper">
+                                            <div class="color-wrapper">
+                                                <label class="black-color">
+                                                    <input type="radio" name="product-color">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <div class="values-label">
+                                            <span>Beden</span>
+                                        </div>
+                                        <div class="values-list">
+                                            <span class="active">Standart</span>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="cart-button">
+                                        <input type="number" value="1" min="1" id="quantity">
+                                        <button class="btn btn-lg btn-primary" id="add-to-cart" type="button">Sepete Ekle</button>
+                                    </div>
+                                    <div class="product-extra-buttons">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                            <span> İstek Listesine Ekle</span>
+                                        </a>
+                                        <a href="#">
+                                            <i class="bi bi-share"></i>
+                                            <span>Bu Ürünü Paylaş</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="divider"></div>
+                            <div class="product-meta">
+                                <div class="product-sku">
+                                    <span>SKU:</span>
+                                    <strong>RPBB57S </strong>
+                                </div>
+                                <div class="product-categories">
+                                    <span>Kategori:</span>
+                                    <strong>
+                                        
+Yatalak Hasta Bakım Gereçleri, Hasta Yatakları
+                                    </strong>
+                                </div>
+                                <div class="product-tags">
+                                    <span>Etiket:</span>
+                                    <a href="#">Siyah</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <!-- site main end -->
+
+                <!-- tabs start -->
+                <div class="single-tabs">
+                    <ul class="tab-list">
+                        <li>
+                            <a href="#" class="tab-button active" data-id="desc">Ürün Açıklaması</a>
+                        </li>
+                        <li>
+                            <a href="#" class="tab-button" data-id="info">
+                                Detaylı Ürün Bilgisi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tab-button" data-id="reviews">
+                                Kullanıcı Yorumları
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-panel">
+                        <div class="tab-panel-descriptions content active" id="desc">
+                            <p>
+                                2 Motorlu Full Abs Hasta Yatağı ile Konfor ve Güvenlik
+                                2 Motorlu Full Abs Hasta Karyolası, hasta bakımı ve konforu için en uygun çözümlerden biridir. Elektrikli kumandası ve 2 motorlu sistemi ile kullanıcıların ihtiyacına göre ayarlanabilir. . Çapraz fren sistemi ve 360 derece dönebilen tekerler, hareket kolaylığı ve güvenliği artırır.
+                                
+                             Bu hasta yatağı 2 yıl garanti ve 10 yıl yedek parça garantisi sunar. İç ve dış mekan ölçüleri ile çeşitli ortamlara uyum sağlar ve 120 kg taşıma kapasitesi ile dayanıklıdır. İstanbul içi aynı gün kurulum hizmeti ve şehir dışı siparişlerde imkanı ile hızlı ve pratik kullanım sunar.</p>
+                        <br>
+                        <p> </p>
+                        </div>
+                        <div class="tab-panel-information content" id="info">
+                            <h3>Ekstra Bilgiler </h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Renk</th>
+                                        <td>
+                                            <p>
+                                                Siyah</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Garanti Bilgisi</th>
+                                        <td>
+                                            <p>
+                                                Bu ürün 2 yıl garanti ve 10 yıl yedek parça garantisi ile birlikte gelir.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dış Ölçüler</th>
+                                        <td>
+                                            <p>
+                                                En 110 cm x Boy 205 cm </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>İç Ölçüler</th>
+                                        <td>
+                                            <p>
+                                                En 90 cm x Boy 190 cm</p>
+                                        </td>
+                                    </tr>
+                                
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-panel-reviews content" id="reviews">
+                            
+                            <div class="comments">
+                                <ol class="comment-list">
+                                    <li class="comment-item">
+                                        
+                                    
+                                </ol>
+                            </div>
+                            
+                            
+                            <!-- comment form start -->
+                            <div class="review-form-wrapper">
+                                <h2>Yorum Ekle </h2>
+                                <form class="comment-form">
+                                    <p class="comment-notes">
+                                        E-mail adresniz ve isminiz paylaşılmayacaktır. Lütfen gerekli alanları doldurunuz.
+                                        <span class="required">*</span>
+                                    </p>
+                                    <div class="comment-form-rating">
+                                        <label>
+                                            Puanlayınız:
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="stars">
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="comment-form-comment form-comment">
+                                        <label for="comment">
+                                            Yorumunuz:
+                                            <span class="required">*</span>
+                                        </label>
+                                        <textarea id="comment-text" cols="50" rows="10" required></textarea>
+                                    </div>
+                                    <div class="comment-form-author form-comment">
+                                        <label for="name">
+                                            İsim-Soyisim:
+                                            <span class="required">*</span>
+                                        </label>
+                                        <input id="comment-name" type="text" required>
+                                    </div>
+                                    <div class="comment-form-email form-comment">
+                                        <label for="email">
+                                            E-mail:
+                                            <span class="required">*</span>
+                                        </label>
+                                        <input id="email" type="email">
+                                    </div>
+                                    <div class="comment-form-cookies">
+                                        <input id="cookies" name="cookies" type="checkbox">
+                                        <label for="cookies">
+                                            
+Bir dahaki sefere yorum yapmam için adımı, e-postamı ve web sitemi bu tarayıcıya kaydet.
+                                            <span class="required">*</span>
+                                        </label>
+
+                                    </div>
+                                    <div class="form-submit">
+                                        <input type="submit" class="btn submit">
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- comment form end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- tabs end -->
+
+            </div>
+        </div>
+    </section>
+    <!--! single product end  -->
+
+    <!--! policy start  -->
+    <section class="policy">
+        <div class="container">
+            <ul class="policy-list">
+                <li class="policy-item">
+                    <i class="bi bi-truck"></i>
+                    <div class="policy-texts">
+                        <strong>Ücretsiz Gönderim </strong>
+                        <span> ücertsiz gönderim için minimum sepet tutarı 3000 TL olamlıdır.</span>
+                    </div>
+                </li>
+                <li class="policy-item">
+                    <i class="bi bi-headset"></i>
+                    <div class="policy-texts">
+                        <strong>7-24 Destek</strong>
+                        <span>24 saat açık</span>
+                    </div>
+                </li>
+                <li class="policy-item">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    <div class="policy-texts">
+                        <strong> 30 gün içinde sorunsuz iade</strong>
+                        <span>30 gün içersinde ürünlerinizi kolaylıkla iade edebilirsiniz.</span>
+                    </div>
+                </li>
+                <li class="policy-item">
+                    <i class="bi bi-credit-card"></i>
+                    <div class="policy-texts">
+                        <strong>Çeşitli Ödeme Yöntemleri</strong>
+                        <span>Güvenli Ödeme</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--! policy end  -->
+<br
+    <!--! footer start  -->
+    <footer class="footer">
+        <div class="subscribe-row">
+            <div class="container">
+              <div class="footer-row-wrapper">
+                <div class="footer-subscribe-wrapper">
+                  <div class="footer-subscribe">
+                    <div class="footer-subscribe-top">
+                      <h3 class="subscribe-title"> Yurt dışından gelen yeni ürünlerden haberdar olmak ve indirimleri almak için bültenimize abone olun! </h3>
+                      <p class="subscribe-desc"></p>
+                    </div>
+                    <div class="footer-subscribe-bottom">
+                      <form>
+                        <input type="text" placeholder="E-mail adresnizi girin .">
+                        <button class="btn">Abone Ol</button>
+                      </form>
+                      <p class="privacy-text">
+                         <a href="#"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-contact-wrapper">
+                  <div class="footer-contact-top">
+                    <h3 class="contact-title">
+                      Yardıma mı ihtiyacınız var? 7/24 açık Whatsapp hattımızdan bize ulaşabilirisiniz ! 
+                      <br>
+                      <br>
+                      0537 722 0010
+                    </h3>
+                    <br
+                    <p class="contact-desc">7/24 ulaşılabilir hat. </p>
+      
+                  
+                  </div>
+                  <div class="footer-contact-bottom">
+                    <div class="download-app">
+                      <a href="#">
+                        <img src="img/footer/app-store.png" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/footer/google-play.png" alt="">
+                      </a>
+                      
+                    </div>
+                    <p class="privacy-text">
+                      <strong>Mobil uygulamalarımızla da ürün alabilir, üyelik oluşturbailir ve güvenle ödeme yapabilirisniz. </strong>
+                     
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="widgets-row">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="brand-info">
+                        <div class="footer-logo">
+                            <a href="index.html" id="logo">
+                                <img src="img/Logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="footer-desc">
+                            <p> En iyi medikal ürünler için doğru adrestesiniz..</p>
+                        </div>
+                        <div class="footer-contact">
+                            <p>
+                                <a href="tel:555 555 55 55">0212 667 26 85</a>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright-row">
+            <div class="container">
+                <div class="footer-copyright">
+                    <div class="site-copyright">
+                        <p>
+                            © E-Commerce. Tüm hakları korunmaktadır.
+                        </p>
+                    </div>
+                    <a href="#">
+                        <img src="img/footer/cards.png" alt="">
+                    </a>
+                    <div class="footer-menu">
+                        <ul class="footer-menu-list">
+                            <li class="list-item">
+                                <a href="#">Gizlilik Politikası</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">Hüküm ve Koşullar</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#">İade Politikası</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--! footer end  -->
+
+
+    <!-- javascript -->
+    <script src="javascript/main.js" type="module"></script>
+    <script src="javascript/single-product.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    
+</body>
+
+</html>
