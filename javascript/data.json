@@ -1,0 +1,131 @@
+[
+    {
+      "id": 1,
+      "name": "Omron Nebulizatör",
+      "price": {
+        "oldPrice": 6000,
+        "newPrice": 5000
+      },
+      "discount": 17,
+      "img": {
+        "singleImage": "./img/products/Nebulizatör/nebulizatör-1.webp",
+        "thumbs": [
+          "./img/products/Nebulizatör/nebulizatör-1.webp",
+          "./img/products/Nebulizatör/nebulizatör-2.webp"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Littmann Steteskop",
+      "price": {
+        "oldPrice": 4999,
+        "newPrice": 4100
+      },
+      "discount": 19,
+      "img": {
+        "singleImage": "./img/products/Steteskop/steteskop-1.webp",
+        "thumbs": [
+          "./img/products/Steteskop/steteskop-1.webp",
+          "./img/products/Steteskop/steteskop-5.webp"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Omron Tansiyon Aleti",
+      "price": {
+        "oldPrice": 2750,
+        "newPrice": 1975
+      },
+      "discount": 30,
+      "img": {
+        "singleImage": "./img/products/Tansiyon-Aleti/tansiyon-aleti-1.webp",
+        "thumbs": [
+          "./img/products/Tansiyon-Aleti/tansiyon-aleti-1.webp",
+          "./img/products/Tansiyon-Aleti/tansiyon-aleti-2.webp",
+          "./img/products/Tansiyon-Aleti/tansiyon-aleti-3.webp"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Portatif Hasta Tuvaleti",
+      "price": {
+        "oldPrice": null,
+        "newPrice": 1380
+      },
+      "discount": null,
+      "img": {
+        "singleImage": "./img/products/portatif-tuvalet/portatif-hasta-tuvaleti.webp",
+        "thumbs": [
+          "./img/products/portatif-tuvalet/portatif-hasta-tuvaleti.webp",
+          "./img/products/portatif-tuvalet/portatif-tuvalet-2.jpg"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Siyah Likralı Scrubs",
+      "price": {
+        "oldPrice": null,
+        "newPrice": 799.99
+      },
+      "discount": null,
+      "img": {
+        "singleImage": "./img/products/Scrubs/Scrubs-1.webp",
+        "thumbs": [
+          "./img/products/Scrubs/Scrubs-1.webp",
+          "./img/products/Scrubs/Scrubs-2.webp"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Poylin Ekonomik Manuel Tekerlekli Sandalye",
+      "price": {
+        "oldPrice": 5000,
+        "newPrice": 3500
+      },
+      "discount": 30,
+      "img": {
+        "singleImage": "./img/products/Tekerlekli-Sandalye/tekerlekli-sandalye-1.jpg",
+        "thumbs": [
+          "./img/products/Tekerlekli-Sandalye/tekerlekli-sandalye-1.jpg",
+          "./img/products/Tekerlekli-Sandalye/tekerlekli-sandalye-2.jpg"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "2 Motorlu Full Abs Hasta Karyolası",
+      "price": {
+        "oldPrice": null,
+        "newPrice": 17750
+      },
+      "discount": null,
+      "img": {
+        "singleImage": "./img/products/Hasta-Yatağı/hasta-yatağı-1-1.jpg",
+        "thumbs": [
+          "./img/products/Hasta-Yatağı/hasta-yatağı-1-1.jpg",
+          "./img/products/Hasta-Yatağı/hasta-yatağı-2-2.jpg"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Katlanabilir Hasta Taşıma Lifti",
+      "price": {
+        "oldPrice": null,
+        "newPrice": 170750
+      },
+      "discount": null,
+      "img": {
+        "singleImage": "./img/products/Yatalak-Hasta-Kaldırma-Ünitesi/hasta-lifti-1.jpg",
+        "thumbs": [
+          "./img/products/Yatalak-Hasta-Kaldırma-Ünitesi/hasta-lifti-1.jpg",
+          "./img/products/Yatalak-Hasta-Kaldırma-Ünitesi/hasta-lift-2.jpg"
+        ]
+      }
+    }
+  ]
