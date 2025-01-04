@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <!--! Glide.js Css CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css">
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+   <!--! header start  -->
+   <header>
+    <div class="global-notification">
+      <div class="container">
+        <p>
+          AKLINIZA GELEBİLECEK,İHTİYACINIZ OLABİLECEK TÜM MEDİKAL ÜRÜNLER BU SAYFADA HEM DE İNDİRİMDE 
+
+          <a href="shop.html">  ŞiMDİ ÜRÜNLERE GİT ! </a>
+        </p>
+      </div>
+    </div>
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-mobile">
+            <i class="bi bi-list" id="btn-menu"></i>
+          </div>
+          <div class="header-left">
+            <a href="index.html" class="logo">
+              <img src="" class="logo" >
+          </a>
+          </div>
+          <div class="header-center" id="sidebar">
+            <nav class="navigation">
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  
+                  <div class="menu-dropdown-wrapper">
+                    
+                  </div>
+                </li>
+                <li class="menu-list-item megamenu-wrapper">
+                  <a href="shop.html" class="menu-link">
+                    Alışveriş 
+                    
+                  </a>
+                  <div class="menu-dropdown-wrapper">
+                    <div class="menu-dropdown-megamenu">
+                      <div class="megamenu-links">
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-products-title">
+                              ÜRÜNLERİMİZ
+                          </h3>
+                          <ul class="megamenu-menu-list">
+                              <li>
+                                  <a href="#">Nebulizatör Gereçleri ve Oksijen Tüpleri</a>
+                              </li>
+                              <li>
+                                  <a href="#">Steteskoplar</a>
+                              </li>
+                              <li>
+                                  <a href="#">Sağlık Personeli Giyim Ürünleri</a>
+                              </li>
+                              <li>
+                                  <a href="#">Tansiyon ve Şeker Ölçüm Aletleri</a>
+                              </li>
+                              <li>
+                                  <a href="#">Tekerlekli Sandalyeler</a>
+                              </li>
+                              <li>
+                                  <a href="#">Yatalak Hasta Bakım Gereçleri</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                      
+                    </div>
+                  </div>
+                </li>
+                <li class="menu-list-item">
+                
+                </li>
+                <li class="menu-list-item">
+                  <a href="contact.html" class="menu-link">
+                    İLETİŞİM
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <i class="bi-x-circle" id="close-sidebar"></i>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <a href="account.html" class="header-account">
+                <i class="bi bi-person"></i>
+              </a>
+              <button class="search-button">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="#">
+                <i class="bi bi-heart"></i>
+              </a>
+              <div class="header-cart">
+                <a href="cart.html" class="header-cart-link">
+                  <i class="bi bi-cart3"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--! header end  -->
+
+    <!--! modal search start -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Search for products</h3>
+            <p class="modal-text">Start typing to see products you are looking for.</p>
+            <form class="search-form">
+                <input type="text" placeholder="Search a product">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-results">
+                <div class="search-heading">
+                    <h3>RESULTS FROM PRODUCT</h3>
+                </div>
+                <div class="results">
+                    <a href="#" class="result-item">
+                        <img src="img/products/product1/1.png" class="search-thumb" alt="">
+                        <div class="search-info">
+                            <h4>Analogue Resin Strap</h4>
+                            <span class="search-sku">SKU: PD0016</span>
+                            <span class="search-price">$108.00</span>
+                        </div>
+                    </a>
+                    <a href="#" class="result-item">
+                        <img src="img/products/product2/1.png" class="search-thumb" alt="">
+                        <div class="search-info">
+                            <h4>Analogue Resin Strap</h4>
+                            <span class="search-sku">SKU: PD0016</span>
+                            <span class="search-price">$108.00</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+   <!--! modal search end  -->
+
+
+
+
+
+    <!--! products start  -->
+    <section class="products">
+        <div class="container">
+            <div class="section-title">
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="product-wrapper product-carousel">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="product-list glide__slides" id="product-list"></ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--! products end  -->
+
+     <!--! products start  -->
+   <!-- Products Section Start -->
+<section class="products">
+  <div class="container">
+      <div class="section-title">
+          <h2>Tüm Ürünlerimiz</h2>
+          
+      </div>
+      <div class="product-grid">
+          <!-- Product Item 1 -->
+          <div class="product-item" data-id="1">
+              <div class="product-image">
+                  <a href="single-product.html">
+                      <img src="img/products/Nebulizatör/nebulizatör-1.webp" alt="Nebulizatör Ön Görsel" class="img1">
+                      <img src="img/products/Nebulizatör/nebulizatör-2.webp" alt="Nebulizatör Yan Görsel" class="img2">
+                  </a>
+              </div>
+              <div class="product-info">
+                  <a href="single-product.html" class="product-title">Omron Nebulizatör</a>
+                  <ul class="product-star">
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-half"></i></li>
+                  </ul>
+                  <div class="product-prices">
+                      <strong class="new-price">5000₺</strong>
+                      <span class="old-price">6000₺</span>
+                  </div>
+                  <span class="product-discount">-17%</span>
+                  <div class="product-links">
+                      <button><i class="bi bi-basket-fill"></i></button>
+                      <button><i class="bi bi-heart-fill"></i></button>
+                      <a href="single-product.html"><i class="bi bi-eye-fill"></i></a>
+                      <a href="#"><i class="bi bi-share-fill"></i></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Product Item 2 -->
+          <div class="product-item" data-id="2">
+              <div class="product-image">
+                  <a href="single-product-steteskop.html">
+                      <img src="img/products/Steteskop/steteskop-1.webp" alt="Steteskop Ön Görsel" class="img1">
+                      <img src="img/products/Steteskop/steteskop-5.webp" alt="Steteskop Yan Görsel" class="img2">
+                  </a>
+              </div>
+              <div class="product-info">
+                  <a href="single-product-steteskop.html" class="product-title">Littmann Steteskop</a>
+                  <ul class="product-star">
+                      <li><i class="bi bi-star"></i></li>
+                      <li><i class="bi bi-star"></i></li>
+                      <li><i class="bi bi-star"></i></li>
+                      <li><i class="bi bi-star"></i></li>
+                      <li><i class="bi bi-star"></i></li>
+                  </ul>
+                  <div class="product-prices">
+                      <strong class="new-price">4100₺</strong>
+                      <span class="old-price">4999₺</span>
+                  </div>
+                  <span class="product-discount">-19%</span>
+                  <div class="product-links">
+                      <button><i class="bi bi-basket-fill"></i></button>
+                      <button><i class="bi bi-heart-fill"></i></button>
+                      <a href="single-product-steteskop.html"><i class="bi bi-eye-fill"></i></a>
+                      <a href="#"><i class="bi bi-share-fill"></i></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Product Item 3 -->
+          <div class="product-item" data-id="3">
+              <div class="product-image">
+                  <a href="single-product-tansiyonaleti.html">
+                      <img src="img/products/Tansiyon-Aleti/tansiyon aleti-1.webp" alt="Tansiyon Aleti Ön Görsel" class="img1">
+                      <img src="img/products/Tansiyon-Aleti/tansiyon aleti-2.webp" alt="Tansiyon Aleti Yan Görsel" class="img2">
+                  </a>
+              </div>
+              <div class="product-info">
+                  <a href="single-product-tansiyonaleti.html" class="product-title">Omron Tansiyon Aleti</a>
+                  <ul class="product-star">
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-fill"></i></li>
+                      <li><i class="bi bi-star-half"></i></li>
+                  </ul>
+                  <div class="product-prices">
+                      <strong class="new-price">1975₺</strong>
+                      <span class="old-price">2750₺</span>
+                  </div>
+                  <span class="product-discount">-30%</span>
+                  <div class="product-links">
+                      <button><i class="bi bi-basket-fill"></i></button>
+                      <button><i class="bi bi-heart-fill"></i></button>
+                      <a href="single-product-tansiyonaleti.html"><i class="bi bi-eye-fill"></i></a>
+                      <a href="#"><i class="bi bi-share-fill"></i></a>
+                  </div>
+              </div>
+          </div>
+          <!-- Product Item 4 -->
+<div class="product-item" data-id="4">
+  <div class="product-image">
+      <a href="single-product-portatif-tuvalet.html">
+          <img src="img/products/portatif-tuvalet/portatif hasta tuvaleti.webp" alt="Portatif Hasta Tuvaleti Ön Görsel" class="img1">
+          <img src="img/products/portatif-tuvalet/portatif tuvalet-2.jpg" alt="Portatif Hasta Tuvaleti Yan Görsel" class="img2">
+      </a>
+  </div>
+  <div class="product-info">
+      <a href="single-product-portatif-tuvalet.html" class="product-title">Portatif Hasta Tuvaleti</a>
+      <ul class="product-star">
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+      </ul>
+      <div class="product-prices">
+          <strong class="new-price">1380₺</strong>
+      </div>
+      <div class="product-links">
+          <button><i class="bi bi-basket-fill"></i></button>
+          <button><i class="bi bi-heart-fill"></i></button>
+          <a href="single-product-portatif-tuvalet.html"><i class="bi bi-eye-fill"></i></a>
+          <a href="#"><i class="bi bi-share-fill"></i></a>
+      </div>
+  </div>
+</div>
+<!-- Product Item 5 -->
+<div class="product-item" data-id="5">
+  <div class="product-image">
+      <a href="single-product-Scrubs.html">
+          <img src="img/products/Scrubs/Scrubs-1.webp" alt="Siyah Likralı Scrubs Ön Görsel" class="img1">
+          <img src="img/products/Scrubs/Scrubs-2.webp" alt="Siyah Likralı Scrubs Yan Görsel" class="img2">
+      </a>
+  </div>
+  <div class="product-info">
+      <a href="single-product-Scrubs.html" class="product-title">Siyah Likralı Scrubs</a>
+      <ul class="product-star">
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+      </ul>
+      <div class="product-prices">
+          <strong class="new-price">799,99₺</strong>
+      </div>
+      <div class="product-links">
+          <button><i class="bi bi-basket-fill"></i></button>
+          <button><i class="bi bi-heart-fill"></i></button>
+          <a href="single-product-Scrubs.html"><i class="bi bi-eye-fill"></i></a>
+          <a href="#"><i class="bi bi-share-fill"></i></a>
+      </div>
+  </div>
+</div>
+<!-- Product Item 6 -->
+<div class="product-item" data-id="6">
+  <div class="product-image">
+      <a href="single-product-tekerlekli-sandalye.html">
+          <img src="img/products/Tekerlekli-Sandalye/tekerlekli sandalye-1.jpg" alt="Tekerlekli Sandalye Ön Görsel" class="img1">
+          <img src="img/products/Tekerlekli-Sandalye/tekerlekli sandalye-2.jpg" alt="Tekerlekli Sandalye Yan Görsel" class="img2">
+      </a>
+  </div>
+  <div class="product-info">
+      <a href="single-product-tekerlekli-sandalye.html" class="product-title">Poylin Ekonomik Manuel Tekerlekli Sandalye</a>
+      <ul class="product-star">
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-half"></i></li>
+          <li><i class="bi bi-star"></i></li>
+      </ul>
+      <div class="product-prices">
+          <strong class="new-price">3500₺</strong>
+          <span class="old-price">5000₺</span>
+      </div>
+      <span class="product-discount">-30%</span>
+      <div class="product-links">
+          <button><i class="bi bi-basket-fill"></i></button>
+          <button><i class="bi bi-heart-fill"></i></button>
+          <a href="single-product-tekerlekli-sandalye.html"><i class="bi bi-eye-fill"></i></a>
+          <a href="#"><i class="bi bi-share-fill"></i></a>
+      </div>
+  </div>
+</div>
+<!-- Product Item 7 -->
+<div class="product-item" data-id="7">
+  <div class="product-image">
+      <a href="single-product-hasta-yatağı.html">
+          <img src="img/products/Hasta-Yatağı/hasta yatağı-1-1.jpg" alt="Hasta Yatağı Ön Görsel" class="img1">
+          <img src="img/products/Hasta-Yatağı/hasta yatağı 2-2.jpg" alt="Hasta Yatağı Yan Görsel" class="img2">
+      </a>
+  </div>
+  <div class="product-info">
+      <a href="single-product-hasta-yatağı.html" class="product-title">2 Motorlu Full ABS Hasta Karyolası</a>
+      <ul class="product-star">
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-fill"></i></li>
+          <li><i class="bi bi-star-fill"></i></li>
+      </ul>
+      <div class="product-prices">
+          <strong class="new-price">17.750₺</strong>
+      </div>
+      <div class="product-links">
+          <button><i class="bi bi-basket-fill"></i></button>
+          <button><i class="bi bi-heart-fill"></i></button>
+          <a href="single-product-hasta-yatağı.html"><i class="bi bi-eye-fill"></i></a>
+          <a href="#"><i class="bi bi-share-fill"></i></a>
+      </div>
+  </div>
+</div>
+<!-- Product Item 8 -->
+<div class="product-item" data-id="8">
+  <div class="product-image">
+      <a href="single-product-hasta-kaldırma-ünitesi.html">
+          <img src="img/products/Yatalak-Hasta-Kaldırma-Ünitesi/hasta lifti-1.jpg" alt="Hasta Kaldırma Ünitesi Ön Görsel" class="img1">
+          <img src="img/products/Yatalak-Hasta-Kaldırma-Ünitesi/hasta lift-2.jpg" alt="Hasta Kaldırma Ünitesi Yan Görsel" class="img2">
+      </a>
+  </div>
+  <div class="product-info">
+      <a href="single-product-hasta-kaldırma-ünitesi.html" class="product-title">Katlanabilir Hasta Taşıma Lifti</a>
+      <ul class="product-star">
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+          <li><i class="bi bi-star"></i></li>
+      </ul>
+      <div class="product-prices">
+          <strong class="new-price">170.750₺</strong>
+      </div>
+      <div class="product-links">
+          <button><i class="bi bi-basket-fill"></i></button>
+          <button><i class="bi bi-heart-fill"></i></button>
+          <a href="single-product-hasta-kaldırma-ünitesi.html"><i class="bi bi-eye-fill"></i></a>
+          <a href="#"><i class="bi bi-share-fill"></i></a>
+      </div>
+  </div>
+</div>
+
+          <!-- Repeat the above structure for Product Items 4 to 8 -->
+      </div>
+  </div>
+</section>
+<!-- Products Section End -->
+<br
+
+<!--! categories start  -->
+<section class="categories">
+  <div class="container">
+    <div class="section-title">
+      <h2>Tüm Kategorilerimiz</h2>
+      <p>Çok Çeşitli Ürün Yelpazesiyle Karşınızdayız</p>
+    </div>
+    <ul class="category-list">
+      <li class="category-item">
+        <a href="#">
+          <img src="img/catagories/hava makinesi.jpg" alt="" class="category-image">
+          <span class="category-title">Nebulizatör Gereçleri ve Oksijen Tüpleri</span>
+        </a>
+      </li>
+      <li class="category-item">
+        <a href="#">
+          <img src="img/catagories/steteskop-1.webp" alt="" class="category-image">
+          <span class="category-title"> Steteskoplar </span>
+        </a>
+      </li>
+      <li class="category-item">
+        <a href="#">
+          <img src="img/catagories/Sağlık Profesyoneli Giyim.jpg" alt="" class="category-image">
+          <span class="category-title"> Sağlık Profesyoneli Giyim </span>
+        </a>
+      </li>
+      <li class="category-item">
+        <a href="#">
+          <img src="img/catagories/tansiyon aleti.jpg" alt="" class="category-image">
+          <span class="category-title"> Tansiyon ve Şeker Ölçüm Aletleri </span>
+        </a>
+      </li>
+      <li class="category-item">
+        <a href="#">
+          <img src="img/catagories/tekerlekli Sandalye.jpg" alt="" class="category-image">
+          <span class="category-title"> Tekerlekli Sandalyeler </span>
+        </a>
+      </li>
+      <li class="category-item">
+        <a href="#">
+          <img src="img/catagories/yatalak hasta bakım gereçleri.jpg" alt="" class="category-image">
+          <span class="category-title"> Yatalak Hasta Bakım Gereçleri</span>
+        </a>
+      </li>
+    
+    </ul>
+  </div>
+</section>
+<!--! categories end  -->
+
+<br
+<!--! brands start  -->
+<section class="brands">
+  <div class="container">
+    <ul class="brand-list">
+      <li class="brand-item">
+        <a href="#">
+          <img src="img/brands/brand1.png" alt="">
+        </a>
+      </li>
+      <li class="brand-item">
+        <a href="#">
+          <img src="img/brands/brand2.png" alt="">
+        </a>
+      </li>
+      <li class="brand-item">
+        <a href="#">
+          <img src="img/brands/brand3.png" alt="">
+        </a>
+      </li>
+      <li class="brand-item">
+        <a href="#">
+          <img src="img/brands/brand4.png" alt="">
+        </a>
+      </li>
+      <li class="brand-item">
+        <a href="#">
+          <img src="img/brands/brand5.png" alt="">
+        </a>
+      </li>
+      <li class="brand-item">
+        <a href="#">
+          <img src="img/brands/brand6.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--! brands end  -->
+<br
+
+
+      <!--! policy start  -->
+  <section class="policy">
+    <div class="container">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <i class="bi bi-truck"></i>
+          <div class="policy-texts">
+            <strong>Ücretsiz Gönderim </strong>
+            <span> ücertsiz gönderim için minimum sepet tutarı 3000 TL olamlıdır.</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-headset"></i>
+          <div class="policy-texts">
+            <strong>7-24 Destek</strong>
+            <span>24 saat açık</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-arrow-clockwise"></i>
+          <div class="policy-texts">
+            <strong> 30 gün içinde sorunsuz iade</strong>
+            <span>30 gün içersinde ürünlerinizi kolaylıkla iade edebilirsiniz.</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-credit-card"></i>
+          <div class="policy-texts">
+            <strong>Çeşitli Ödeme Yöntemleri</strong>
+            <span>Güvenli Ödeme</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--! policy end  -->
+  <br
+  
+
+
+     <!--! footer start  -->
+  <footer class="footer">
+    <div class="subscribe-row">
+      <div class="container">
+        <div class="footer-row-wrapper">
+          <div class="footer-subscribe-wrapper">
+            <div class="footer-subscribe">
+              <div class="footer-subscribe-top">
+                <h3 class="subscribe-title"> Yurt dışından gelen yeni ürünlerden haberdar olmak ve indirimleri almak için bültenimize abone olun! </h3>
+                <p class="subscribe-desc"></p>
+              </div>
+              <div class="footer-subscribe-bottom">
+                <form>
+                  <input type="text" placeholder="E-mail adresnizi girin .">
+                  <button class="btn">Abone Ol</button>
+                </form>
+                <p class="privacy-text">
+                   <a href="#"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-wrapper">
+            <div class="footer-contact-top">
+              <h3 class="contact-title">
+                Yardıma mı ihtiyacınız var? 7/24 açık Whatsapp hattımızdan bize ulaşabilirisiniz ! 
+                <br>
+                <br>
+                0537 722 0010
+              </h3>
+              <br
+              <p class="contact-desc">7/24 ulaşılabilir hat. </p>
+
+            
+            </div>
+            <div class="footer-contact-bottom">
+              <div class="download-app">
+                <a href="#">
+                  <img src="img/footer/app-store.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="img/footer/google-play.png" alt="">
+                </a>
+                
+              </div>
+              <p class="privacy-text">
+                <strong>Mobil uygulamalarımızla da ürün alabilir, üyelik oluşturbailir ve güvenle ödeme yapabilirisniz. </strong>
+               
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widgets-row">
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="brand-info">
+            <div class="footer-logo">
+              <a href="index.html" id="logo">
+                <img src="img/Logo.png" alt="Logo">
+             </a>
+            </div>
+            <div class="footer-desc">
+              <p> En iyi medikal ürünler için doğru adrestesiniz..</p>
+            </div>
+            <div class="footer-contact">
+              <p>
+                <a href="tel:555 555 55 55">0212 667 26 85</a>
+              </p>
+            </div>
+          </div>
+      
+          
+        </div>
+      </div>
+    </div>
+    <div class="copyright-row">
+      <div class="container">
+        <div class="footer-copyright">
+          <div class="site-copyright">
+            <p>
+              © E-Commerce. Tüm hakları korunmaktadır.
+            </p>
+          </div>
+          <a href="#">
+            <img src="img/footer/cards.png" alt="">
+          </a>
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="list-item">
+                <a href="#">Gizlilik Politikası</a>
+              </li>
+              <li class="list-item">
+                <a href="#">Hüküm ve Koşullar</a>
+              </li>
+              <li class="list-item">
+                <a href="#">İade Politikası</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--! footer end  -->
+
+
+    <!-- javascript  -->
+    <script src="javascript/main.js" type="module"></script>
+    
+
+    
+</body>
+
+</html>
