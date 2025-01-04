@@ -1,0 +1,9 @@
+.comment-item .comment-avatar img {
+    width: 80px; /* Genişlik */
+    height: 80px; /* Yükseklik */
+    border-radius: 50%; /* Dairesel görünüm */
+    object-fit: cover; /* Görüntünün taşmasını engeller */
+    border: 2px solid #ddd; /* Kenar çerçevesi */
+    margin-right: 15px; /* Sağ tarafa boşluk */
+    display: inline-block; /* Yan yana hizalama */
+}
